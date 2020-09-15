@@ -49,3 +49,70 @@ let first = function funcTwo() {
 };
 
 first();
+
+/*
+
+//! Challenge 2: Take Home Challenge
+/*  
+Create a switch statement that takes in a value (number) that represents a grade.  
+If it is True, console log that they are passing with the correct letter grade.
+*   A: 89-100
+*   B: 79-88
+*   C: 66-78
+*   D: 59-65
+*   F: 0-59
+
+instructor = 'Amanda'
+
+switch(instructor) {
+    case 'Ing':
+    case 'Adam':
+    case 'Eric':
+    case 'Zach':
+        console.log(`${instructor} is part of the Web Dev Team.`)
+        break;
+    case 'Josh':
+    case 'Amanda':
+    case 'Casey':
+        console.log(`${instructor} is part of the Software Dev Team.`)
+        break;
+    default:
+        console.log(`Sorry, I can't find what ${instructor} teaches.`);
+
+*/
+
+/*
+*************
+PARAMETERS
+*************
+Function: think of rolling dice in an roleplaying game.  The rolling itself is the function.  
+The parameters you send when you invoke it are the type of dice to roll and the number of dice you are going to roll.  
+The function rolls the dice and returns the total (value). You can use that same function over and over again, 
+just sending different dice and quantities to roll.
+Allow us to accept information already declared.
+
+*/
+
+function parameterFunc(num) {
+    console.log(num);
+}
+
+parameterFunc(2);
+parameterFunc(9);
+
+
+let returnedVal = 5;
+parameterFunc(returnedVal);
+
+
+let firstName = "Jane";
+let lastName = "Doe";
+
+function greeting(a, b) {
+    console.log(`Hi, ${a}! Welcome back!`)
+    console.log(`This is the first parameter: ${a}!`)
+    console.log(`This is the second parameter: ${b}!`)
+}
+
+//greeting(firstName);
+greeting(firstName, lastName);

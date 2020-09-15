@@ -125,4 +125,3 @@ Quick Recap:
     for in loops: loops through properties of an object.
     for of loops: loops over interable obejects as an array and strings **string can be accessed much in the same way as arrays
 */
-    
