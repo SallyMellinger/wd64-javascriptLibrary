@@ -4,7 +4,7 @@ console.log("3" == 3);
 
 
 /* 
-    -Javascript is helpful and does something know as coercion when comparing values
+    -Javascript is helpful and does something known as coercion when comparing values
         -coercion is the process of converting a value from one type to another.
 */
 
