@@ -230,3 +230,10 @@ switch(instructor) {
     default:
         console.log(`Sorry, I can't find what ${instructor} teaches.`);
 }
+
+
+function monthName(mon) {
+    return ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'November', 'December'][mon - 1];
+ }
+ 
+ console.log(monthName(1));

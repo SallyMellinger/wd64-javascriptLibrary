@@ -40,7 +40,7 @@ function funcOne() {
     console.log('Statement Here');
 }
 
-funcOne():
+funcOne();
 
 // Function Expression
 //Assigning a function to a variable is what is called an EXPRESSION
@@ -116,3 +116,13 @@ function greeting(a, b) {
 
 //greeting(firstName);
 greeting(firstName, lastName);
+
+let userName = 'Bill'
+
+userName ? console.log(`Hello, ${userName}`) : console.log('Hello!');
+
+const userQuestion = 'Will I win the lottery?'
+console.log(`${userName} asked: ${userQuestion}`)
+
+
+let randomNumber = math.floor(Math.random() * 8);

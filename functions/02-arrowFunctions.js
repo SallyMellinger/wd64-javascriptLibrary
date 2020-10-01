@@ -47,3 +47,42 @@ let sampleBlock = x => {
 
 sampleBlock(99);
 
+for (let i=0; i<=10; i++) {
+    oddsEvens(i)
+   
+function oddsEvens(x) {
+        
+        console.log(x)
+        let i = x
+            if (x === 0) {
+                console.log("the number is even");
+        }
+        else if (x % 2 === 0) {
+                console.log("the number is even");
+        }
+        else {
+                console.log("the number is odd");
+        }
+    }
+}
+
+for (let i=0; i <= 10; i++) {
+    oddsEvens(i);
+ }
+
+
+function oddsEvens(x) {
+console.log(x);
+let i = x;
+if (i===0){
+   console.log('the number is even');
+   } 
+   else if (i % 2 === 0) {
+   console.log('the number is even');
+   }
+ 
+   else {
+   console.log('the number is odd');
+   }
+
+}
